@@ -1,0 +1,37 @@
+/* Any site/page wide components here */
+input[type="text"] {
+	margin: 2em auto;	
+	display: block;
+	padding: 1em;
+	width: 100%;
+}
+.resultFilter {
+	width: 500px;
+}
+.users {
+	width: 500px;
+	margin: auto;
+	a {
+		color: $black;
+	}
+	li {
+		margin-bottom: 1em;
+		background: rgba($silver, .2);
+		overflow: hidden;
+		height: 7em;
+	}
+	.image {
+		float: left;
+		width: 25%;
+		height: 100%;
+	}
+	.image img {
+		height: 100%;
+	}
+	.info {
+		float: left;
+		width: 70%;
+		height: 100%;
+		padding: .25em;
+	}
+}
