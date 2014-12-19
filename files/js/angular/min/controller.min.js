@@ -5,6 +5,7 @@ userControllers.controller('UserListController' , ['$scope', '$http', function($
 	$http.get('/files/data/users.json').success(function(data){
 		$scope.users = data;
 	});
+	$scope.userOrder = 'name.first';
 }]); 
 
 

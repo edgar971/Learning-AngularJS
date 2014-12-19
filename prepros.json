@@ -220,7 +220,7 @@
     }
   },
   "config": {
-    "watch": false,
+    "watch": true,
     "liveRefresh": true,
     "liveRefreshDelay": 0,
     "filterPatterns": "",
